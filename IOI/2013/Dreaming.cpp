@@ -23,7 +23,6 @@ void dfsdist(int u, int p){
     }
 }
 pair<int, ll> endtree(int s, vector<int> &treeidv){
-    // dist.assign(n, -1);
     for (int &u : treeidv){
         dist[u] = -1;
     }
