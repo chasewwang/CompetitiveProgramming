@@ -6,7 +6,7 @@ Values with different remainders mod |K| will never be equal. So, we solve indep
 After dividing out the common remainder and |K|, increments are now all 1 or -1, depending on if K was positive or negative.
 This set of integers must be made distinct through increments of 1 or -1.
 
-We greedily assign each value to the closest next avaiable value in that direction.
+We greedily assign each value to the closest next available value in that direction.
 */
 
 #include <bits/stdc++.h>
