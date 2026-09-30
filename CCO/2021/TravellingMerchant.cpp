@@ -1,6 +1,5 @@
 #include <bits/stdc++.h>
 using namespace std;
-using ll = long long;
 const int INF = 0x3f3f3f3f;
 struct edge{
     int u, v, r, p;
